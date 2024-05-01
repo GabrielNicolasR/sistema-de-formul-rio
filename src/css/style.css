@@ -1,0 +1,99 @@
+body {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 100px;
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: contain;
+}
+
+.container .texto-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    color: #fff;
+}
+
+.container .texto-principal .titulo {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.container .texto-principal .sub-titulo {
+    font-size: 17px;
+    font-weight: 400;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.container .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 600px;
+    height: 650px;
+}
+
+.container .formulario .items-form {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .formulario .items-form input {
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container .formulario .items-form input:first-child {
+    margin-top: 0;
+}
+
+.container .formulario .items-form  .tag-de-input.mensagem {
+    width: 100%;
+    padding-bottom: 30%;
+    height: 200px;
+}
+
+.container .formulario .items-form .obrigatorio { 
+    width: 100%; 
+    text-align: start; 
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.container .formulario .items-form .btn-enviar {
+    cursor: pointer;
+    border-color: #3CCC87;
+    background-color: #3CCC87;
+    color: #fff;
+}
+
+.btn-enviar-erro {
+    border-color: #F52E2E;
+}
+
+.novo-html {
+    font-size: 12px;
+    margin-right: 420px;
+    color: #F52E2E;
+}
+
+.btn-enviar-correto {
+    border-color: #3CCC87;
+}
+
+
