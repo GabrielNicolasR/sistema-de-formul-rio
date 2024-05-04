@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 767px) {  
+@media (min-width: 320px) and (max-width: 1200px) {  
     .container {
         flex-direction: column;
         gap: 10px;
@@ -6,6 +6,7 @@
 
     .container .texto-principal {
         align-items: center;
+        text-align: center;
         width: 100%;
     }
 
@@ -19,25 +20,17 @@
         font-size: 18px;   
     }
 
-
     .container .formulario {
-        height: 80%;
+        height: 90%;
         width: 90%;
+    }
+
+    .container .formulario .items-form {
+        padding: 10px;
     }
 
     .novo-html {
         width: 100%;
+        text-align: center;
     }
 } 
-
-@media (max-width: 768px) {
-    .container {
-        padding: 20px;
-    }
-
-    .novo-html {
-        margin-right: 400px;
-        width: 90%;
-    }
-
-}
