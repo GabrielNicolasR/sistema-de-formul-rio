@@ -1,0 +1,43 @@
+@media (min-width: 320px) and (max-width: 767px) {  
+    .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container .texto-principal {
+        align-items: center;
+        width: 100%;
+    }
+
+    .container .texto-principal .titulo {
+        font-size: 25px;
+    }
+
+    .container .texto-principal .sub-titulo {
+        width: 90%;
+        text-align: center;
+        font-size: 18px;   
+    }
+
+
+    .container .formulario {
+        height: 80%;
+        width: 90%;
+    }
+
+    .novo-html {
+        width: 100%;
+    }
+} 
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .novo-html {
+        margin-right: 400px;
+        width: 90%;
+    }
+
+}

@@ -39,7 +39,7 @@ body {
     align-items: center;
     background-color: #fff;
     width: 600px;
-    height: 620px;
+    height: 650px;
 }
 
 .container .formulario .items-form {
@@ -84,7 +84,7 @@ body {
 
 .btn-enviar-erro {
     border-color: #F52E2E;
-}
+}   
 
 .novo-html {
     font-size: 12px;
@@ -95,5 +95,3 @@ body {
 .btn-enviar-correto {
     border-color: #3CCC87;
 }
-
-
